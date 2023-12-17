@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment4</title>
 </head>
-<body style="background: royalblue;">
+<body style="background: rgb(193, 205, 241);">
     <div>
         <h3>task 4: Create a HTML document with a number displayed, and a button below the number that says " Increase Counter", when the user clicks on the button, the number should be incremented by 1</h3>
     </div>
@@ -17,22 +17,26 @@
             text-align: center;
             height: 300px;
             margin-left: 350px;
-            background: steelblue;
+            background: skyblue;
         }
         #counter{
-           margin-left: 150px;
-           width: 50px;
+           margin-left: 160px;
+           width: 55px;
            height: 50px;
            border: 15px solid white;
-           margin-bottom: 20px;
+           margin-bottom: 25px;
+           color: black;
            
+        }
+        button{
+            border-radius: 5px;
         }
 
     </style>
 
     <section class="box">
-        <h1>Counter App</h1>
-        <div id="counter" style="box-sizing: border-box; background: rgb(0, 140, 255) ; " >0</div>
+        <h1>COUNTER </h1>
+        <div id="counter" style="box-sizing: border-box; background: rgb(148, 202, 247) ; " >0</div>
         <button id="increase" onclick="increaseCounter()">Increase Counter</button>
     </section>
 
